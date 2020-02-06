@@ -1,0 +1,157 @@
+  <!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>Document</title>
+     <link rel="stylesheet" href="cal.css">
+ </head>
+ <body>
+     
+  <div class="calculator">
+
+   <div class="container">
+
+    
+     <div class="body">
+       
+    <header class="tip">
+       <div class="head">
+         <h1>TIP CALCULATOR</h1>
+       </div>
+           </header>
+
+
+
+         <!--start the bill-->
+
+           <div class="bill">
+       
+             <p>How much was your bill ?</p>
+             <span>$</span>   <input id="bill" type="text" value="" placeholder="put the amount of bill " >
+
+          </div>
+      
+         <!--end the bill-->
+          
+
+
+
+
+         <!--start the options-->
+
+          <div class="service">
+       
+                <p>How was your service ?</p>
+                  
+                 <select id="quality">
+
+                   <option value="0" disabled selected> ....select an option.... </option>
+                   <option value="5">Terrible - 5%</option>
+                   <option value="10">Bad - 10%</option>
+                   <option value="15">Ok - 15%</option>
+                   <option value="20">Good - 20%</option>
+                   <option value="30">Outstanding - 30%</option>
+
+                 </select>
+   
+             </div>
+         
+         
+             <!--end the options-->
+             
+
+
+
+          <!--start the number of people-->
+
+           <div class="people">
+       
+                <p>How many people are sharing the bill ?</p>
+                <input id="people" type="text" value="" placeholder="put the number of people " >   <span>people</span>   
+   
+             </div>
+         
+
+             
+          
+          <!--end the number of people-->
+
+
+
+
+
+
+
+             
+
+              <button onclick="tipCalculation()">CALCULATE !</button>
+                
+             
+               <span id="results"></span> 
+
+    
+
+            </div>
+     </div>
+
+
+
+
+   </div>
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="calc.js"></script>
+ </body>
+ </html>
+
+
+
+
+
+
+
+
+
+
